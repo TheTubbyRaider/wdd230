@@ -7,8 +7,8 @@ body, h1, h2, h3, p, ul, li {
 /* Set the base font and background color */
 body {
     font-family: 'Your Chosen Font', sans-serif;
-    background-color: #f0f0f0; /* Set your preferred background color */
-    color: #333; /* Set your preferred text color */
+    background-color: #7389b3; /* Set your preferred background color */
+    color: #ffffff; /* Set your preferred text color */
 }
 
 /* Center the main element horizontally and limit its width */
@@ -20,7 +20,7 @@ main {
 
 /* Style the section cards using CSS Grid */
 .card {
-    background-color: #fff; /* Set card background color */
+    background-color: #bec3d6; /* Set card background color */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
@@ -28,6 +28,10 @@ main {
 }
 
 /* Style the headings */
+h1{
+    padding-top:50px;
+    Font-size:50px
+}
 h1, h2, h3 {
     color: #333; /* Set heading text color */
 }
@@ -41,4 +45,48 @@ a {
 /* Style the course links list */
 ul.course-links {
     list-style-type: none; /* Remove bullets from the list */
+}
+
+/* Header styles */
+.headercontent {
+    background-color: #a4b3e6; /* Set header background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center-align content */
+    
+}
+
+.profilepic {
+    max-width: 200px; /* Set a maximum width for the image */
+    margin-right: 40px; /* Right margin for spacing */
+    align-items: center;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack header text vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.text-container h1 {
+    margin: 0; /* Remove default margin for the heading */
+}
+
+nav {
+    text-align: center; /* Center-align the links */
+    font-size: 20px;
+    background-color: #757b83; /* Set background color */
+    padding: 0px 0; /* Add padding above and below the links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set link color to black */
+    margin: 0 10px; /* Add horizontal spacing between links */
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #a4a8ad; /* Change link color to red when hovering */
 }
