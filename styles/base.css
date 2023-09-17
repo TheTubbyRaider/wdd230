@@ -1,0 +1,44 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the base font and background color */
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    background-color: #f0f0f0; /* Set your preferred background color */
+    color: #333; /* Set your preferred text color */
+}
+
+/* Center the main element horizontally and limit its width */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the section cards using CSS Grid */
+.card {
+    background-color: #fff; /* Set card background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 20px; /* Add space between cards */
+}
+
+/* Style the headings */
+h1, h2, h3 {
+    color: #333; /* Set heading text color */
+}
+
+/* Style the links */
+a {
+    color: #0073e6; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style the course links list */
+ul.course-links {
+    list-style-type: none; /* Remove bullets from the list */
+}
