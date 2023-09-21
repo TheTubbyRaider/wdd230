@@ -29,7 +29,7 @@ main {
 
 h1 {
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: #000000; 
 }
 
@@ -76,6 +76,26 @@ nav {
     font-size: 20px;
     background-color: #d2ddeb;
     padding: 10px 0; 
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 15px; 
+    }
+
+    h1 {
+        font-size: 32px; 
+    }
 }
 
 nav a {
