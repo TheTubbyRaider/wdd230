@@ -15,18 +15,21 @@
     <link rel="stylesheet" type="text/css" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
-    
 </head>
 <body>
     <header>
-        <div class = "headercontent">
-            <img src="images/profilepic.jpg"  class="profilepic">
+        <div class="headercontent">
+            <img src="images/profilepic.jpg" class="profilepic">
             <div class="text-container">
-            <h1>Gage Strong</h1>
+                <h1>Gage Strong</h1>
             </div>
-        </class>
+        </div>
     </header>
     <nav>
+        <button id="hamburger-button" class="hamburger-button" aria-label="Toggle Menu">
+            ☰
+        </button>
+
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="chamber/siteplan.html">Site Plan</a></li>
@@ -73,6 +76,13 @@
             <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
         </section>
     </footer>
-    <link rel="javascript" href="scripts/getdates.js">
-</body>
-</html>
+    <p id="copyright">
+        &copy;<span id="currentYear">2023</span> Gage Strong, <span id="location">Utah</span>
+    </p>
+    <script src="getdates.js"></script>
+    <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
+ 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.411349118082!2d-111.69464748527694!3d40.29689707818479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752898d71713e23%3A0xc438e11a577c7d75!2sOrem%2C%20UT!5e0!3m2!1sen!2sus!4v1632770809473!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    </body>
+    </html>

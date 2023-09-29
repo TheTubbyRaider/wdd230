@@ -1,23 +1,19 @@
-/* Reset some default styles for consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-
 body {
     font-family: 'Your Chosen Font', sans-serif;
     background-color: #7389b3;
-    color: #ffffff; 
+    color: #ffffff;
 }
-
 
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
-
 
 .card {
     background-color: #4a5892;
@@ -30,11 +26,11 @@ main {
 h1 {
     padding-top: 50px;
     font-size: 40px;
-    color: #000000; 
+    color: #000000;
 }
 
 h2, h3 {
-    color: #000000; 
+    color: #000000;
 }
 
 a {
@@ -42,11 +38,9 @@ a {
     text-decoration: none;
 }
 
-
 ul.course-links {
     list-style-type: none;
 }
-
 
 .headercontent {
     background-color: #a4b3e6;
@@ -75,7 +69,7 @@ nav {
     text-align: center;
     font-size: 20px;
     background-color: #d2ddeb;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 
 nav ul {
@@ -83,32 +77,57 @@ nav ul {
     flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
-    nav ul {
-        flex-direction: row; 
-        justify-content: center;
-    }
-
-    nav li {
-        margin: 0 15px; 
-    }
-
-    h1 {
-        font-size: 32px; 
-    }
+/* Styling for hamburger button */
+.hamburger-button {
+  display: none; /* Hide on larger screens */
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000; /* Hamburger icon color */
+  margin-right: 20px; /* Add spacing between the icon and menu items */
 }
 
-nav a {
-    text-decoration: none;
-    color: #000;
-    margin: 0 10px;
-    transition: color 0.3s;
+/* Show the button on smaller screens using media query */
+@media screen and (max-width: 768px) {
+  .hamburger-button {
+    display: block; /* Display on smaller screens */
+  }
 }
 
-nav a:hover {
-    color: #a4a8ad;
+/* Styling for the menu when it's hidden on smaller screens */
+nav ul {
+  display: flex; /* Display on normal-sized screens by default */
+  flex-direction: column;
+  background-color: #d2ddeb; /* Menu background color */
+  padding: 20px; /* Add spacing around menu items */
+  border-radius: 5px; /* Add rounded corners */
 }
 
+/* Hide the menu on smaller screens using media query */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide on smaller screens */
+  }
+}
+
+/* Styling for menu items */
+nav ul li {
+  margin-bottom: 10px; /* Add spacing between menu items */
+  list-style: none; /* Remove list bullets */
+}
+
+/* Styling for menu links */
+nav ul li a {
+  color: #000; /* Menu link color */
+  text-decoration: none;
+  font-weight: bold; /* Menu link font weight */
+}
+
+/* Highlight menu links on hover */
+nav ul li a:hover {
+  color: #4a5892; /* Hover color */
+}
 
 
 
