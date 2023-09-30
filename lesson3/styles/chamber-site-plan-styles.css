@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5d5c61; /* Background color */
+    color: #333; /* Main text color */
+}
+
+h1 {
+    color: #379683; /* Heading text color */
+}
+
+p {
+    color: #7395ae; /* Paragraph text color */
+}
