@@ -1,0 +1,20 @@
+header {
+    padding: 20px 0;
+}
+
+.logo a {
+    font-size: 32px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.main-menu {
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.main-menu li {
+    margin: 0 40px;
+}

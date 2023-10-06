@@ -1,0 +1,12 @@
+header {
+    padding: 15px 0;
+}
+
+.logo a {
+    font-size: 28px;
+}
+
+.main-menu {
+    justify-content: flex-start;
+    margin-top: 20px;
+}
