@@ -1,20 +1,13 @@
-header {
-    padding: 20px 0;
-}
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #5d5c61;
+        color: #7395ae;
+    }
 
-.logo a {
-    font-size: 32px;
-}
+    header {
+        background-color: #379683;
+        color: white;
+    }
 
-.menu-toggle {
-    display: none;
-}
-
-.main-menu {
-    justify-content: flex-start;
-    margin-top: 30px;
-}
-
-.main-menu li {
-    margin: 0 40px;
+    /* Additional styles for larger screens can be added here */
 }

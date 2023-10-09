@@ -1,58 +1,173 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li {
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5d5c61; /* Background color */
+    color: #7395ae; /* Main text color */
     margin: 0;
     padding: 0;
 }
 
-/* Define some basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+.header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: #379683; /* Header background color */
 }
 
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+.header-nav .logo {
     font-size: 24px;
+    font-weight: bold;
+    color: white; /* Logo text color */
 }
 
-.menu-toggle {
-    display: none; /* Hide initially for larger screens */
-    flex-direction: column;
-    cursor: pointer;
+.header-nav .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav .menu ul li {
     margin-right: 20px;
 }
 
-.menu-toggle span {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
+.header-nav .menu ul li:last-child {
+    margin-right: 0;
 }
 
-.main-menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.main-menu li {
-    margin: 0 20px;
-}
-
-.main-menu a {
+.header-nav .menu ul li a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: white; /* Menu link text color */
 }
+
+.header-nav .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero section */
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Call to action (CTA) button */
+.cta a {
+    background-color: #379683; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta a:hover {
+    background-color: #266c7e; /* Button background color on hover */
+}
+
+/* Event and News sections */
+.events, .news {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.events h2, .news h2 {
+    color: #379683; /* Heading text color */
+}
+
+/* Event and News lists */
+.events ul, .news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events ul li, .news ul li {
+    margin-bottom: 10px;
+}
+
+.weather {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.weather h2 {
+    color: #379683; /* Heading text color */
+}
+
+/* Call to Action (CTA) section */
+.cta-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-section h2 {
+    color: #379683; /* Heading text color */
+}
+
+.cta-section p {
+    color: #7395ae; /* Main text color */
+}
+
+.cta-section a {
+    background-color: #379683; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-section a:hover {
+    background-color: #266c7e; /* Button background color on hover */
+}
+
+/* Company Spotlights section */
+.spotlights {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.spotlights h2 {
+    color: #379683; /* Heading text color */
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.spotlight img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer section */
+footer {
+    background-color: #379683; /* Footer background color */
+    color: white; /* Footer text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Additional styles can be added here */
