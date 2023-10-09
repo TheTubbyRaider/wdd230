@@ -9,5 +9,15 @@
         color: white;
     }
 
-    /* Additional styles for larger screens can be added here */
+
+/* Hide the hamburger button */
+.hamburger {
+    display: none;
 }
+
+/* Show the navigation menu */
+.header-nav .menu ul {
+    display: flex;
+}
+
+/* Additional styles for larger screens can be added here */

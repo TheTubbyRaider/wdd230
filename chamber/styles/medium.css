@@ -12,3 +12,17 @@
 }
 
 /* Additional styles for medium screens can be added here */
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #5d5c61;
+        color: #7395ae;
+    }
+
+    header {
+        background-color: #379683;
+        color: white;
+    }
+
+    /* Additional styles for larger screens can be added here */
+}
