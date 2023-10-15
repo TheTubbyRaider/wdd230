@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="styles/custom.css"> <!-- Custom stylesheet for your styles -->
+    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet"> <!-- Dark mode stylesheet -->
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
     <meta name="author" content="Your Name">
     <meta name="description" content="Chamber of Commerce">
@@ -30,6 +31,14 @@
                 </ul>
             </div>
             <div class="hamburger">☰</div> <!-- Hamburger menu icon -->
+            
+            <!-- Dark mode toggle switch -->
+            <div class="dark-mode-toggle">
+                <label for="dark-mode-switch" class="toggle-label">
+                    <input type="checkbox" id="dark-mode-switch">
+                    Toggle Dark Mode
+                </label>
+            </div>
         </div>
     </header>
     
@@ -109,5 +118,6 @@
 
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script> <!-- JavaScript for dark mode -->
 </body>
 </html>

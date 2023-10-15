@@ -1,0 +1,105 @@
+/* Dark mode styles for the entire page */
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header Styles */
+.header-nav {
+    background-color: #111; /* Header background color in dark mode */
+    color: #fff; /* Header text color in dark mode */
+}
+
+.header-nav .logo {
+    color: #fff; /* Logo text color in dark mode */
+}
+
+.header-nav .menu ul li a {
+    color: #fff; /* Menu link text color in dark mode */
+}
+
+/* Hero Section */
+.hero img {
+    border: 5px solid #fff; /* Add a white border to images in the hero section */
+}
+
+/* Call to Action (CTA) Button */
+.cta a {
+    background-color: #111; /* Button background color in dark mode */
+    color: #fff; /* Button text color in dark mode */
+}
+
+.cta a:hover {
+    background-color: #222; /* Button background color on hover in dark mode */
+}
+
+/* Event and News Sections */
+.events, .news {
+    background-color: #111; /* Section background color in dark mode */
+}
+
+.events h2, .news h2 {
+    color: #fff; /* Heading text color in dark mode */
+}
+
+.events ul li, .news ul li {
+    margin-bottom: 10px;
+    color: #fff; /* List item text color in dark mode */
+}
+
+/* Weather Section */
+.weather {
+    background-color: #111; /* Section background color in dark mode */
+}
+
+.weather h2 {
+    color: #fff; /* Heading text color in dark mode */
+}
+
+.weather p {
+    color: #fff; /* Text color in dark mode */
+}
+
+/* Call to Action (CTA) Section */
+.cta-section {
+    background-color: #111; /* Section background color in dark mode */
+}
+
+.cta-section h2 {
+    color: #fff; /* Heading text color in dark mode */
+}
+
+.cta-section p {
+    color: #fff; /* Text color in dark mode */
+}
+
+.cta-section a {
+    background-color: #111; /* Button background color in dark mode */
+    color: #fff; /* Button text color in dark mode */
+}
+
+.cta-section a:hover {
+    background-color: #222; /* Button background color on hover in dark mode */
+}
+
+/* Company Spotlights Section */
+.spotlights {
+    background-color: #111; /* Section background color in dark mode */
+}
+
+.spotlights h2 {
+    color: #fff; /* Heading text color in dark mode */
+}
+
+.spotlight img {
+    border: 5px solid #fff; /* Add a white border to images in the spotlight section */
+}
+
+/* Footer Section */
+footer {
+    background-color: #111; /* Footer background color in dark mode */
+    color: #fff; /* Footer text color in dark mode */
+    border-top: 1px solid #fff; /* Add a white border at the top of the footer */
+}
+
+/* Add more styles for different sections and elements as needed */
