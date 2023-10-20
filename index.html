@@ -19,7 +19,7 @@
 <body>
     <header>
         <div class="headercontent">
-            <img src="images/profilepic.jpg" class="profilepic">
+            <img src="images/profilepic.webp" class="profilepic">
             <div class="text-container">
                 <h1>Gage Strong</h1>
             </div>
@@ -39,12 +39,28 @@
         </ul>
     </nav>
     <main>
+        <!-- Hero Image Section -->
+        <section class="hero">
+            <picture>
+                <!-- Mobile Image (400px) -->
+                <source srcset="images/Templepic.webp" media="(max-width: 767px)">
+                <!-- Larger View Image (Up to 960px) -->
+                <source srcset="images/Templepic.webp" media="(min-width: 768px) and (max-width: 960px)">
+                <!-- Default Image (Fallback) -->
+                <img src="images/Templepic.jpg" alt="Favorite Latter-day Temple">
+            </picture>
+            <!-- Overlay Text -->
+            <div class="overlay-text">
+                <h2>Salt Lake City Utah</h2>
+            </div>
+        </section>
         <h2>
             WDD 230: Web Frontend Development
         </h2>
         <section class="card">
             <h4>Learning Activities</h4>
             <ul>
+                <!-- Add your course links here -->
                 <li><a href="#">01.</a></li>
                 <li><a href="lesson2/design.html">02.</a></li>
                 <li><a href="lesson2/designprinciples.html">02.Design Principles</a></li>
@@ -60,7 +76,6 @@
                 <li><a href="#">08.</a></li>
                 <li><a href="#">09.</a></li>
                 <li><a href="#">10.</a></li>
-
             </ul>
         </section>
         <section class="card">
@@ -86,5 +101,5 @@
  
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.411349118082!2d-111.69464748527694!3d40.29689707818479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752898d71713e23%3A0xc438e11a577c7d75!2sOrem%2C%20UT!5e0!3m2!1sen!2sus!4v1632770809473!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     
-    </body>
-    </html>
+</body>
+</html>
