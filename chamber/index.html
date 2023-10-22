@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
     <link rel="stylesheet" href="styles/custom.css">
-    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet"> <!-- Dark mode stylesheet -->
+    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
     <meta name="author" content="Your Name">
     <meta name="description" content="Chamber of Commerce">
@@ -15,20 +15,22 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/Favicon.png">
     <meta property="og:url" content="https://www.example.com">
-    <title>Chamber of Commerce</title>
+    <title>Orem, Utah Chamber of Commerce</title>
 </head>
 <body>
     <header>
         <div class="header-nav">
-            <div class="logo">Chamber Logo</div>
+            <div class="logo"><img src="images/oremlogo.webp" width="100px" alt="Chamber Logo"><p>Orem, Utah Chamber of Commerce</p></div>
             <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Members</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="hamburger">☰</div> <!-- Hamburger menu icon -->
             
@@ -43,9 +45,11 @@
     </header>
     
     <main class="grid-container">
-        <!-- Hero section -->
+        <!-- Hero section with responsive images -->
         <section class="hero">
-            <img src="hero-image.jpg" alt="Hero Image">
+            <img srcset="images/wdd230-org-small.jpg 400w, images/wdd230-org-medium.jpg 800w, images/wdd230-org.webp 1600w"
+                 sizes="(max-width: 400px) 360px, (max-width: 800px) 720px, 1400px"
+                 src="images/wdd230-org-large.jpg" alt="Responsive Hero Image">
         </section>
 
         <!-- Call to action (CTA) section -->
@@ -73,10 +77,13 @@
             </ul>
         </section>
 
-        <!-- Weather section -->
+        <!-- Weather section with wind chill -->
         <section class="weather">
             <h2>Weather Forecast</h2>
             <p>Today's Weather: Sunny</p>
+            <p>Temperature: <span id="temperature">72°F</span></p>
+            <p>Wind Speed: <span id="windspeed">5.0 mph</span></p>
+            <p>Wind Chill: <span id="windchill">N/A</span></p>
         </section>
 
         <!-- Call to Action (CTA) section -->
@@ -86,19 +93,16 @@
             <a href="#">Learn More</a>
         </section>
 
-        <div class="main-content-container">
-        </div>
-
         <!-- Company Spotlights section -->
         <section class="spotlights-container">
             <section class="spotlights">
                 <h2>Company Spotlights</h2>
                 <div class="spotlight">
-                    <img src="company1.jpg" alt="Company 1">
+                    <img src="images/company1.jpg" alt="Company 1">
                     <p>Company 1 Description</p>
                 </div>
                 <div class="spotlight">
-                    <img src="company2.jpg" alt="Company 2">
+                    <img src="images/company2.jpg" alt="Company 2">
                     <p>Company 2 Description</p>
                 </div>
             </section>
@@ -109,7 +113,7 @@
         <div class="contact-info">
             <p>Contact: grsraider66@gmail.com</p>
         </div>
-        <div class="development-info">
+        <div class "development-info">
             <p>Created by Gage Strong</p>
             <p>WDD 230 Project</p>
             <p>Last Modified: <span id="lastModified"></span></p>
@@ -118,6 +122,7 @@
 
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/dark-mode.js"></script> <!-- JavaScript for dark mode -->
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
