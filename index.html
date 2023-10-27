@@ -9,7 +9,7 @@
     <meta property="og:title" content="Gage Strong - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://wasatchmovingco.com/wp-content/uploads/2019/04/Untitled-design-17.png">
-    <meta property="og:url" content="https://thetubbyraider.github.io/wdd230/">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html"> <!-- Replace with your actual website URL -->
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/larger.css">
@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="headercontent">
-            <img src="images/profilepic.webp" class="profilepic">
+            <img src="images/profilepic.webp" class="profilepic" alt="Profile Picture">
             <div class="text-container">
                 <h1>Gage Strong</h1>
             </div>
@@ -79,19 +79,13 @@
         <section class="card">
             <h4>Information</h4>
             <p id="infoParagraph">
-                &copy;<span id="currentYear"></span> Gage Strong, Utah
+                &copy;<span id="currentYear">2023</span> Gage Strong, Utah
             </p>
-            <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
         </section>
     </footer>
     <p id="copyright">
         &copy;<span id="currentYear">2023</span> Gage Strong, <span id="location">Utah</span>
     </p>
-    <iframe
-        id="google-map"
-        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1"
-        loading="lazy"
-    </iframe>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/main.js"></script>
 </body>
