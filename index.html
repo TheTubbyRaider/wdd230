@@ -6,7 +6,7 @@
     <title>Gage Strong - WDD 230 - Web Frontend Development</title>
     <meta name="class" content="WDD 230 - Web Frontend Development">
     <meta name="author" content="Gage Robert Strong">
-    <meta name="Description" content="WDD 230 Course Assignment Portal, Shows homework">
+    <meta name="description" content="Gage Strong's WDD 230 Course Assignment Portal">
     <meta property="homepage:title" content="Landing page" />
     <meta property="homepage:type" content="website" />
     <meta property="homepage:url" content="http://127.0.0.1:5500/index.html" />
@@ -29,7 +29,6 @@
         <button id="hamburger-button" class="hamburger-button" aria-label="Toggle Menu">
             ☰
         </button>
-
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="chamber/siteplan.html">Site Plan</a></li>
@@ -39,28 +38,20 @@
         </ul>
     </nav>
     <main>
-        <!-- Hero Image Section -->
         <section class="hero">
             <picture>
-                <!-- Mobile Image (400px) -->
                 <source srcset="images/Templepic.webp" media="(max-width: 767px)">
-                <!-- Larger View Image (Up to 960px) -->
                 <source srcset="images/Templepic.webp" media="(min-width: 768px) and (max-width: 960px)">
-                <!-- Default Image (Fallback) -->
                 <img src="images/Templepic.jpg" alt="Favorite Latter-day Temple">
             </picture>
-            <!-- Overlay Text -->
             <div class="overlay-text">
                 <h2>Salt Lake City Utah</h2>
             </div>
         </section>
-        <h2>
-            WDD 230: Web Frontend Development
-        </h2>
+        <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h4>Learning Activities</h4>
-            <ul>
-                <!-- Add your course links here -->
+            <ul class="course-links">
                 <li><a href="#">01.</a></li>
                 <li><a href="lesson2/design.html">02.</a></li>
                 <li><a href="lesson2/designprinciples.html">02.Design Principles</a></li>
@@ -80,8 +71,9 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Placeholder for weather information.</p>
-            <p>Placeholder for the number of visits to the page.</p>
+            <p>Weather in Orem, Utah: Sunny, Temperature: 70°F</p>
+            <p id="visit-counter">Page Visits: 1</p>
+            <p id="lastModified">Last Modified: <span id="lastModifiedDate">Loading...</span></p>
         </section>
     </main>
     <footer>
@@ -96,10 +88,10 @@
     <p id="copyright">
         &copy;<span id="currentYear">2023</span> Gage Strong, <span id="location">Utah</span>
     </p>
-    <script src="getdates.js"></script>
-    <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
- 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.411349118082!2d-111.69464748527694!3d40.29689707818479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752898d71713e23%3A0xc438e11a577c7d75!2sOrem%2C%20UT!5e0!3m2!1sen!2sus!4v1632770809473!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    
+    <iframe
+        id="google-map"
+        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1"
+        loading="lazy"
+    </iframe>
 </body>
 </html>

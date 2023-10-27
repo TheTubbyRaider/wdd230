@@ -8,24 +8,20 @@ body, h1, h2, h3, p, ul, li {
   box-sizing: border-box;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 body {
-  font-family: 'Your Chosen Font', sans-serif;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   background-color: #7389b3;
   color: #ffffff;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.card {
-  background-color: #4a5892;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+a {
+  text-decoration: none;
+  color: #007BFF;
 }
 
 h1 {
@@ -40,13 +36,16 @@ h2, h3 {
 
 a {
   text-decoration: none;
-  color: #007BFF; /* Updated link color */
+  color: #333;
 }
 
-ul.course-links {
-  list-style-type: none;
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
+/* Add the following styles for the header and navigation */
 .headercontent {
   background-color: #a4b3e6;
   color: #fff;
@@ -75,21 +74,21 @@ nav {
   font-size: 20px;
   background-color: #d2ddeb;
   padding: 10px 0;
-  width: 100%; /* Set the width to 100% */
+  width: 100%;
 }
 
 nav ul {
   display: flex;
-  justify-content: center; /* Center align menu items */
+  justify-content: center;
   background-color: #d2ddeb;
   padding: 20px;
   border-radius: 5px;
-  width: 100%; /* Set the width to 100% */
+  width: 100%;
 }
 
 /* Styling for hamburger button */
 .hamburger-button {
-  display: none; /* Hide on larger screens */
+  display: none;
   background: none;
   border: none;
   font-size: 24px;
@@ -107,8 +106,6 @@ nav ul {
 
 /* Styling for the menu when it's hidden on smaller screens */
 nav ul {
-  /* display: flex; Removed this line */
-  /* flex-direction: column; Removed this line */
   background-color: #d2ddeb;
   padding: 20px;
   border-radius: 5px;
@@ -158,18 +155,18 @@ nav ul li a:hover {
   padding: 20px;
   border-radius: 5px;
 }
+
 .overlay-text h2 {
   font-size: 24px;
   margin: 0;
-  color:white;
+  color: white;
 }
+
 .overlay-text p {
   font-size: 18px;
 }
+
 /* Add styles for the hamburger button if needed */
 .hamburger-button {
   display: none;
 }
-
-
-
