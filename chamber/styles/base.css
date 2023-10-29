@@ -1,35 +1,36 @@
-/* Base Styles */
+/* Your existing base styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #5d5c61; /* Background color */
-    color: #7395ae; /* Main text color */
+    background-color: #5d5c61;
+    color: #7395ae;
     margin: 0;
     padding: 0;
 }
+
 .logo p{
     Float:right;
     padding-left:25px;
-
 }
+
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #379683; /* Header background color */
+    background-color: #379683;
 }
 
 .header-nav .logo {
     font-size: 24px;
     font-weight: bold;
-    color: white; /* Logo text color */
+    color: white;
 }
 
 .header-nav .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: none; /* Hide menu items by default */
+    display: none;
 }
 
 .header-nav .menu ul li {
@@ -42,7 +43,7 @@ body {
 
 .header-nav .menu ul li a {
     text-decoration: none;
-    color: white; /* Menu link text color */
+    color: white;
 }
 
 .header-nav .menu ul li a:hover {
@@ -55,29 +56,26 @@ body {
     padding: 20px;
 }
 
-/* Hero section */
 .hero img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
 }
 
-/* Call to action (CTA) button */
 .cta a {
-    background-color: #379683; /* Button background color */
-    color: white; /* Button text color */
+    background-color: #379683;
+    color: white;
     padding: 10px 20px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
 }
 
 .cta a:hover {
-    background-color: #266c7e; /* Button background color on hover */
+    background-color: #266c7e;
 }
 
-/* Event and News sections */
 .events, .news {
     background-color: white;
     border-radius: 10px;
@@ -86,10 +84,9 @@ body {
 }
 
 .events h2, .news h2 {
-    color: #379683; /* Heading text color */
+    color: #379683;
 }
 
-/* Event and News lists */
 .events ul, .news ul {
     list-style: none;
     padding: 0;
@@ -107,10 +104,9 @@ body {
 }
 
 .weather h2 {
-    color: #379683; /* Heading text color */
+    color: #379683;
 }
 
-/* Call to Action (CTA) section */
 .cta-section {
     background-color: white;
     border-radius: 10px;
@@ -119,28 +115,27 @@ body {
 }
 
 .cta-section h2 {
-    color: #379683; /* Heading text color */
+    color: #379683;
 }
 
 .cta-section p {
-    color: #7395ae; /* Main text color */
+    color: #7395ae;
 }
 
 .cta-section a {
-    background-color: #379683; /* Button background color */
-    color: white; /* Button text color */
+    background-color: #379683;
+    color: white;
     padding: 10px 20px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
 }
 
 .cta-section a:hover {
-    background-color: #266c7e; /* Button background color on hover */
+    background-color: #266c7e;
 }
 
-/* Company Spotlights section */
 .spotlights {
     background-color: white;
     border-radius: 10px;
@@ -149,7 +144,7 @@ body {
 }
 
 .spotlights h2 {
-    color: #379683; /* Heading text color */
+    color: #379683;
 }
 
 .spotlight {
@@ -162,15 +157,68 @@ body {
 .spotlight img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
 }
 
-/* Footer section */
-footer {
-    background-color: #379683; /* Footer background color */
-    color: white; /* Footer text color */
+/* Sidebar and Main Content Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.sidebar {
+    background-color: #f3f3f3;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px; /* Rounded corners */
+    font-size: 16px;
+    border-radius: 10px;
 }
 
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lazy-load {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: opacity 0.3s;
+}
+
+.lazy-load:not(.loaded) {
+    opacity: 0;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Gap between photos */
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo p {
+    margin: 5px 0;
+}
+@media screen and (max-width: 768px) {
+    /* Adjust the image gallery for smaller screens */
+    .image-gallery {
+        grid-template-columns: 1fr; /* Display one column for smaller screens */
+    }
+
+    .photo {
+        margin: 0 auto; /* Center-align photos within the column */
+        text-align: center;
+    }
+}

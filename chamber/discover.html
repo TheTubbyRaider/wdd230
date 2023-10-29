@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
+    <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Chamber of Commerce">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Favicon.png">
+    <meta property="og:url" content="https://www.example.com">
+    <title>Orem, Utah Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <div class="logo"><img src="images/oremlogo.webp" width="100px" alt="Chamber Logo"><p>Orem, Utah Chamber of Commerce</p></div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger">☰</div> <!-- Hamburger menu icon -->
+            
+            <!-- Dark mode toggle switch -->
+            <div class="dark-mode-toggle">
+                <label for="dark-mode-switch" class="toggle-label">
+                    <input type="checkbox" id="dark-mode-switch">
+                    Toggle Dark Mode
+                </label>
+            </div>
+        </div>
+    </header>
+    
+    <main class="grid-container">
+        <section class="sidebar">
+            <div class="sidebar-content">
+                <div class="demographics">
+                    <h2>Demographics</h2>
+                    <p>Population: 1.5 million</p>
+                    <p>Median Age: 35</p>
+                </div>
+                <div class="statistics">
+                    <h2>Statistical Data</h2>
+                    <p>Unemployment Rate: 5%</p>
+                    <p>Median Income: $50,000</p>
+                </div>
+                <div class="events">
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <li>Event 1: A Community Gathering</li>
+                        <li>Event 2: Orem Summer Fest</li>
+                        <li>Event 3: Food Festival</li>
+                    </ul>
+                </div>
+                <div class="attractions">
+                    <h2>Attractions</h2>
+                    <ul>
+                        <li>Attraction 1: Orem Botanical Garden</li>
+                        <li>Attraction 2: Orem City History Museum</li>
+                        <li>Attraction 3: Scenic Mountain Trails</li>
+                    </ul>
+                </div>
+                <div class="calendar">
+                    <h2>Calendar</h2>
+                    <iframe src="https://calendar.google.com/calendar/u/0/r?pli=1" style="border-width: 0;" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="main-content">
+            <div class="image-gallery">
+                <div class="photo">
+                    <img class="lazy-load" data-src="images/orem mountain view.webp" alt="Local Photo 1">
+                    <p>Orem Utah Drone Shot</p>
+                </div>
+                <div class="photo">
+                    <img class="lazy-load" data-src="images/oremdroneshot.webp" alt="Local Photo 2">
+                    <p>Orem Utah Mountain View</p>
+                </div>
+                <div class="photo">
+                    <img class="lazy-load" data-src="images/oremsummerfest.webp" alt="Local Photo 3">
+                    <p>Orem Summerfest</p>
+                </div>
+                <div class= "photo">
+                    <img class="lazy-load" data-src="images/parade.webp" alt="Local Photo 4">
+                    <p>Orem Summerfest Parade</p>
+                </div>
+                <div class="photo">
+                    <img class="lazy-load" data-src="images/garden.webp" alt="Local Photo 5">
+                    <p>Garden in Vineyard</p>
+                </div>
+                <div class="photo">
+                    <img class="lazy-load" data-src="images/UVU campus.webp" alt="Local Photo 6">
+                    <p>UVU Campus</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact: grsraider66@gmail.com</p>
+        </div>
+        <div class="development-info">
+            <p>Created by Gage Strong</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/discover.js"></script>
+</body>
+</html>
