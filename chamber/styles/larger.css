@@ -1,14 +1,15 @@
-@media screen and (min-width: 1024px) {
-    body {
-        background-color: #5d5c61;
-        color: #7395ae;
-    }
+/* Larger Screen Styles (Min-width: 1024px) */
+/* Add styles for larger screens here */
 
-    header {
-        background-color: #379683;
-        color: white;
-    }
+body {
+    background-color: #5d5c61;
+    color: #7395ae;
+}
 
+header {
+    background-color: #379683;
+    color: white;
+}
 
 /* Hide the hamburger button */
 .hamburger {
@@ -19,4 +20,3 @@
 .header-nav .menu ul {
     display: flex;
 }
-

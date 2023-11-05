@@ -1,27 +1,22 @@
-/* Medium Screen Styles (Min-width: 768px) */
-/* Add styles for medium screens here */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 20px; /* Gap between columns and rows */
+/* Larger Screen Styles (Min-width: 1024px) */
+/* Add styles for larger screens here */
+
+body {
+    background-color: #5d5c61;
+    color: #7395ae;
 }
 
-/* Styles for sections within the grid */
-.hero, .cta, .events, .news, .weather, .cta-section {
-    grid-column: span 1; /* Each section spans one column */
+header {
+    background-color: #379683;
+    color: white;
 }
 
-/* Additional styles for medium screens can be added here */
+/* Hide the hamburger button */
+.hamburger {
+    display: none;
+}
 
-@media screen and (min-width: 1024px) {
-    body {
-        background-color: #5d5c61;
-        color: #7395ae;
-    }
-
-    header {
-        background-color: #379683;
-        color: white;
-    }
-
+/* Show the navigation menu */
+.header-nav .menu ul {
+    display: flex;
 }
