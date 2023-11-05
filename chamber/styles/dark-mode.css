@@ -1,104 +1,176 @@
 /* Dark mode styles for the entire page */
 body.dark-mode {
-    background-color: #000;
-    color: #fff;
+    background-color: #333; /* Dark gray background color */
+    color: #999; /* Light gray text color */
 }
 
 /* Header Styles */
 .header-nav {
-    background-color: #111; /* Header background color in dark mode */
-    color: #fff; /* Header text color in dark mode */
+    background-color: #222; /* Dark gray header background color in dark mode */
+    color: #999; /* Light gray header text color in dark mode */
 }
 
 .header-nav .logo {
-    color: #fff; /* Logo text color in dark mode */
+    color: #999; /* Light gray logo text color in dark mode */
 }
 
 .header-nav .menu ul li a {
-    color: #fff; /* Menu link text color in dark mode */
+    color: #999; /* Light gray menu link text color in dark mode */
 }
 
 /* Hero Section */
 .hero img {
-    border: 5px solid #fff; /* Add a white border to images in the hero section */
+    border: 5px solid #999; /* Add a light gray border to images in the hero section */
 }
 
 /* Call to Action (CTA) Button */
 .cta a {
-    background-color: #111; /* Button background color in dark mode */
-    color: #fff; /* Button text color in dark mode */
+    background-color: #222; /* Darker button background color in dark mode */
+    color: #999; /* Light gray button text color in dark mode */
 }
 
 .cta a:hover {
-    background-color: #222; /* Button background color on hover in dark mode */
+    background-color: #333; /* Slightly darker button background on hover in dark mode */
 }
 
 /* Event and News Sections */
 .events, .news {
-    background-color: #111; /* Section background color in dark mode */
+    background-color: #222; /* Dark gray section background color in dark mode */
 }
 
 .events h2, .news h2 {
-    color: #fff; /* Heading text color in dark mode */
+    color: #999; /* Light gray heading text color in dark mode */
 }
 
 .events ul li, .news ul li {
     margin-bottom: 10px;
-    color: #fff; /* List item text color in dark mode */
+    color: #999; /* Light gray list item text color in dark mode */
 }
 
 /* Weather Section */
 .weather {
-    background-color: #111; /* Section background color in dark mode */
+    background-color: #222; /* Dark gray section background color in dark mode */
 }
 
 .weather h2 {
-    color: #fff; /* Heading text color in dark mode */
+    color: #999; /* Light gray heading text color in dark mode */
 }
 
 .weather p {
-    color: #fff; /* Text color in dark mode */
+    color: #999; /* Light gray text color in dark mode */
 }
 
 /* Call to Action (CTA) Section */
 .cta-section {
-    background-color: #111; /* Section background color in dark mode */
+    background-color: #222; /* Dark gray section background color in dark mode */
 }
 
 .cta-section h2 {
-    color: #fff; /* Heading text color in dark mode */
+    color: #999; /* Light gray heading text color in dark mode */
 }
 
 .cta-section p {
-    color: #fff; /* Text color in dark mode */
+    color: #999; /* Light gray text color in dark mode */
 }
 
 .cta-section a {
-    background-color: #111; /* Button background color in dark mode */
-    color: #fff; /* Button text color in dark mode */
+    background-color: #222; /* Darker button background color in dark mode */
+    color: #999; /* Light gray button text color in dark mode */
 }
 
 .cta-section a:hover {
-    background-color: #222; /* Button background color on hover in dark mode */
+    background-color: #333; /* Slightly darker button background on hover in dark mode */
 }
 
 /* Company Spotlights Section */
 .spotlights {
-    background-color: #111; /* Section background color in dark mode */
+    background-color: #222; /* Dark gray section background color in dark mode */
 }
 
 .spotlights h2 {
-    color: #fff; /* Heading text color in dark mode */
+    color: #999; /* Light gray heading text color in dark mode */
 }
 
 .spotlight img {
-    border: 5px solid #fff; /* Add a white border to images in the spotlight section */
+    border: 5px solid #999; /* Add a light gray border to images in the spotlight section */
 }
 
 /* Footer Section */
 footer {
-    background-color: #111; /* Footer background color in dark mode */
-    color: #fff; /* Footer text color in dark mode */
-    border-top: 1px solid #fff; /* Add a white border at the top of the footer */
+    background-color: #222; /* Dark gray footer background color in dark mode */
+    color: #999; /* Light gray footer text color in dark mode */
+    border-top: 1px solid #999; /* Add a light gray border at the top of the footer */
 }
 
+/* Form Styles */
+.main-content form.dark-mode {
+    background-color: #333; /* Dark gray form background */
+    filter: grayscale(100%); /* Convert form elements to grayscale */
+}
+
+.main-content form.dark-mode label,
+.main-content form.dark-mode select,
+.main-content form.dark-mode textarea {
+    color: #999; /* Light gray text color for labels and input elements */
+}
+
+.main-content form.dark-mode input[type="text"],
+.main-content form.dark-mode input[type="email"],
+.main-content form.dark-mode input[type="tel"],
+.main-content form.dark-mode select,
+.main-content form.dark-mode textarea {
+    background-color: #444; /* Slightly darker background for form input elements */
+    border: 1px solid #555; /* Darker border for form input elements */
+}
+
+.main-content form.dark-mode button {
+    background-color: #444; /* Slightly darker background for form submit button */
+    color: #999; /* Light gray text color for form submit button */
+}
+
+.main-content form.dark-mode button:hover {
+    background-color: #555; /* Slightly darker background on hover for form submit button */
+}
+.main-content form.dark-mode {
+    background-color: #333; /* Dark gray background color for the form */
+    filter: grayscale(100%); /* Convert form elements to grayscale */
+
+    /* Adjust text and input colors */
+    color: #999; /* Light gray text color for labels and input elements */
+}
+
+.main-content form.dark-mode label,
+.main-content form.dark-mode select,
+.main-content form.dark-mode textarea {
+    color: #999; /* Light gray text color for labels and input elements */
+}
+
+.main-content form.dark-mode input[type="text"],
+.main-content form.dark-mode input[type="email"],
+.main-content form.dark-mode input[type="tel"],
+.main-content form.dark-mode select,
+.main-content form.dark-mode textarea {
+    background-color: #444; /* Slightly darker background for form input elements */
+    border: 1px solid #555; /* Darker border for form input elements */
+}
+
+.main-content form.dark-mode select {
+    appearance: none;
+    padding: 10px;
+    background-color: #444; /* Slightly darker background for select elements */
+    border: 1px solid #555; /* Darker border for select elements */
+}
+
+.main-content form.dark-mode select option {
+    font-size: 16px;
+    color: #999; /* Light gray text color for select options */
+}
+
+.main-content form.dark-mode button {
+    background-color: #444; /* Slightly darker background for form submit button */
+    color: #999; /* Light gray text color for form submit button */
+}
+
+.main-content form.dark-mode button:hover {
+    background-color: #555; /* Slightly darker background on hover for form submit button */
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
+    <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Join the Chamber of Commerce">
+    <meta property="og:title" content="Join the Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Favicon.png">
+    <meta property="og:url" content="join.html">
+    <title>Join the Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <div class="logo"><img src="images/oremlogo.webp" width="100px" alt="Chamber Logo"><p>Orem, Utah Chamber of Commerce</p></div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger">☰</div>
+            
+            <div class="dark-mode-toggle">
+                <label for="dark-mode-switch" class="toggle-label">
+                    <input type="checkbox" id="dark-mode-switch">
+                    Toggle Dark Mode
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="grid-container">
+        <section class="sidebar">
+            <h2>Membership Level Benefits</h2>
+            <ul>
+                <li>NP Membership: No fee, benefits include:
+                    <ul>
+                        <li>Access to Chamber events</li>
+                        <li>Networking opportunities</li>
+                    </ul>
+                </li>
+                <li>Bronze Membership: Cost, benefits include:
+                    <ul>
+                        <li>All NP Membership benefits</li>
+                        <li>Discounted event tickets</li>
+                    </ul>
+                </li>
+                <li>Silver Membership: Cost, benefits include:
+                    <ul>
+                        <li>All Bronze Membership benefits</li>
+                        <li>Featured in our member spotlight</li>
+                    </ul>
+                </li>
+                <li>Gold Membership: Cost, benefits include:
+                    <ul>
+                        <li>All Silver Membership benefits</li>
+                        <li>Exclusive access to premium events</li>
+                        <li>Priority support</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-content">
+            <h1>Join the Chamber of Commerce</h1>
+            <form action="thanks.html" method="get">
+                <label for="firstName">Applicant's First Name*: </label>
+                <input type="text" id="firstName" name="firstName" required placeholder="John">
+
+                <label for="lastName">Applicant's Last Name*: </label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+
+                <label for="title">Applicant's Title/Position*: </label>
+                <input type="text" id="title" name="title" pattern="[a-zA-Z -]{7,}" required placeholder="CEO">
+
+                <label for="email">Email Address*: </label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+                <label for="mobilePhone">Mobile Phone Number*: </label>
+                <input type="tel" id="mobilePhone" name="mobilePhone" required placeholder="123-456-7890">
+
+                <label for="orgName">Business/Organization Name*: </label>
+                <input type="text" id="orgName" name="orgName" required placeholder="ABC Inc.">
+
+                <label for="membershipLevel">Membership Level*: </label>
+                <select id="membershipLevel" name="membershipLevel">
+                    <option value="NP">NP Membership (No fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+
+                <label for="orgDescription">Business/Organization Description: </label>
+                <textarea id="orgDescription" name="orgDescription" placeholder="A brief description of your organization."></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact: grsraider66@gmail.com</p>
+        </div>
+        <div class="development-info">
+            <p>Created by Gage Strong</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>
