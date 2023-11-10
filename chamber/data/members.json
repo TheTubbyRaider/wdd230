@@ -1,0 +1,67 @@
+{
+    "members": [
+      {
+        "name": "Tech Innovators Inc.",
+        "address": "123 Innovation Lane, Tech City",
+        "phone": "(555) 123-4567",
+        "website": "http://www.techinnovators.com",
+        "image": "tech_innovators.jpg",
+        "membershipLevel": "Platinum",
+        "otherInfo": "Leading the way in technological advancements and innovation."
+      },
+      {
+        "name": "Nature's Harvest Organic Farm",
+        "address": "456 Organic Way, Green Valley",
+        "phone": "(555) 987-6543",
+        "website": "http://www.naturesharvest.com",
+        "image": "natures_harvest.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Providing fresh, organic produce to promote a healthy lifestyle."
+      },
+      {
+        "name": "Global Logistics Solutions",
+        "address": "789 Commerce Street, Logistics Town",
+        "phone": "(555) 789-0123",
+        "website": "http://www.logisticsolutions.com",
+        "image": "logistics_solutions.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Efficient and reliable logistics services for businesses worldwide."
+      },
+      {
+        "name": "Artistic Creations Studio",
+        "address": "101 Art Avenue, Creative City",
+        "phone": "(555) 456-7890",
+        "website": "http://www.artisticcreations.com",
+        "image": "artistic_creations.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "A hub for artistic expression, showcasing talent across various mediums."
+      },
+      {
+        "name": "HealthyBites Restaurant",
+        "address": "202 Wellness Street, Fitville",
+        "phone": "(555) 234-5678",
+        "website": "http://www.healthybites.com",
+        "image": "healthybites.jpg",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Delicious and nutritious meals for a balanced and healthy lifestyle."
+      },
+      {
+        "name": "Adventure Gear Co.",
+        "address": "303 Outdoor Avenue, Adventureland",
+        "phone": "(555) 345-6789",
+        "website": "http://www.adventuregear.com",
+        "image": "adventure_gear.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Equip yourself for thrilling adventures with top-notch outdoor gear."
+      },
+      {
+        "name": "EduMinds Learning Center",
+        "address": "404 Knowledge Lane, Smart City",
+        "phone": "(555) 567-8901",
+        "website": "http://www.eduminds.com",
+        "image": "eduminds.jpg",
+        "membershipLevel": "Platinum",
+        "otherInfo": "Fostering a love for learning through innovative educational programs."
+      }
+    ]
+  }
