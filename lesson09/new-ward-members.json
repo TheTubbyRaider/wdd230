@@ -1,0 +1,24 @@
+{
+    "familyName": "Johnson",
+    "moveInDate": "2023-11-09",
+    "numberOfPeople": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "John Johnson",
+        "gender": "Male",
+        "birthdate": "1980-02-15"
+      },
+      {
+        "name": "Jane Johnson",
+        "gender": "Female",
+        "birthdate": "1985-08-22"
+      },
+      {
+        "name": "Alice Johnson",
+        "gender": "Female",
+        "birthdate": "2010-11-05"
+      }
+    ]
+  }
+  
