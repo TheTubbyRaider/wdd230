@@ -16,6 +16,10 @@
     <meta property="og:image" content="images/Favicon.png">
     <meta property="og:url" content="https://www.example.com">
     <title>Orem, Utah Chamber of Commerce</title>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </head>
 <body>
     <header>
@@ -33,9 +37,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="hamburger">☰</div> <!-- Hamburger menu icon -->
-            
-            <!-- Dark mode toggle switch -->
+            <div class="hamburger">☰</div>
             <div class="dark-mode-toggle">
                 <label for="dark-mode-switch" class="toggle-label">
                     <input type="checkbox" id="dark-mode-switch">
@@ -46,62 +48,55 @@
     </header>
     
     <main class="grid-container">
-        <!-- Hero section with responsive images -->
         <section class="hero">
             <img srcset="images/wdd230-org-small.jpg 400w, images/wdd230-org-medium.jpg 800w, images/wdd230-org.webp 1600w"
                  sizes="(max-width: 400px) 360px, (max-width: 800px) 720px, 1400px"
                  src="images/wdd230-org-large.jpg" alt="Responsive Hero Image">
         </section>
 
-        <!-- Call to action (CTA) section -->
         <section class="cta">
             <a href="join.html">Join the Chamber of Commerce</a>
         </section>
 
-        <!-- Current Events section -->
         <section class="events">
             <h2>Current Events</h2>
             <ul>
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
+                <li>Community Workshop - Nov 20</li>
+                <li>Business Networking Lunch - Nov 25</li>
+                <li>Holiday Parade - Dec 1</li>
             </ul>
         </section>
 
-        <!-- News section -->
         <section class="news">
             <h2>News</h2>
             <ul>
-                <li>News 1</li>
-                <li>News 2</li>
-                <li>News 3</li>
+                <li>New Chamber Members Announcement</li>
+                <li>Upcoming Business Expo</li>
+                <li>Chamber Receives Community Service Award</li>
             </ul>
         </section>
 
-        <!-- Weather section with wind chill -->
         <section class="weather">
             <h2>Weather Forecast</h2>
-            <p>Today's Weather: Sunny</p>
-            <p>Temperature: <span id="temperature">Loading...</span></p>
+            <p>Current Temperature: <span id="temperature">Loading...</span></p>
+            <p>Current Weather: <span id="weather-description">Loading...</span></p>
+            <div id="forecast"></div>
             <p>Wind Speed: <span id="windspeed">Loading...</span></p>
             <p>Wind Chill: <span id="windchill">Loading...</span></p>
         </section>
+
+        <div id="banner-container"></div>
     </main>
 
     <footer>
         <div class="contact-info">
             <p>Contact: grsraider66@gmail.com</p>
         </div>
-        <div class "development-info">
+        <div class="development-info">
             <p>Created by Gage Strong</p>
             <p>WDD 230 Project</p>
             <p>Last Modified: <span id="lastModified"></span></p>
         </div>
     </footer>
-
-    <script src="scripts/lastModified.js"></script>
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/dark-mode.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>

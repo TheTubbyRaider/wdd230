@@ -1,35 +1,46 @@
-// Function to calculate wind chill
-function calculateWindChill(temperature, windSpeed) {
-    return 35.74 + 0.6215 * temperature - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
-}
-
-// Function to get weather data for Utah County, Utah and calculate wind chill
 async function getWeatherDataAndCalculateWindChill() {
     const utahCountyCoordinates = {
-        latitude: 40.114955, // Latitude of Utah County
-        longitude: -111.654923, // Longitude of Utah County
+        latitude: 40.114955,
+        longitude: -111.654923,
     };
-    const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+    const apiKey = '9b8e8824203134875cd82225113718f2';
 
     try {
-        // Make an API request to OpenWeatherMap to get weather data for Utah County
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${utahCountyCoordinates.latitude}&lon=${utahCountyCoordinates.longitude}&units=imperial&appid=${apiKey}`);
-        const data = await response.json();
+        // Check if weather data is already in cache
+        let weatherData = JSON.parse(localStorage.getItem('weatherData'));
 
-        const temperature = data.main.temp;
-        const windSpeed = data.wind.speed;
+        if (!weatherData) {
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${utahCountyCoordinates.latitude}&lon=${utahCountyCoordinates.longitude}&units=imperial&appid=${apiKey}`);
+            weatherData = await response.json();
 
-        // Calculate wind chill
-        const windChill = calculateWindChill(temperature, windSpeed);
+            // Cache the weather data
+            localStorage.setItem('weatherData', JSON.stringify(weatherData));
+        }
 
-        // Display wind chill on the page
-        document.getElementById("temperature").textContent = temperature + " °F";
-        document.getElementById("windspeed").textContent = windSpeed + " mph";
-        document.getElementById("windchill").textContent = windChill.toFixed(2) + " °F";
+        const currentTemperature = weatherData.current.temp;
+        const currentWeatherDescription = weatherData.current.weather[0].description;
+
+        document.getElementById("temperature").textContent = `${currentTemperature} °F`;
+        document.getElementById("weather-description").textContent = currentWeatherDescription;
+
+        const forecast = weatherData.daily.slice(1, 4);
+        const forecastContainer = document.getElementById("forecast");
+        forecastContainer.innerHTML = '<h3>Three-Day Forecast</h3>';
+        forecast.forEach(day => {
+            const date = new Date(day.dt * 1000).toLocaleDateString('en-US', { weekday: 'short' });
+            const temperature = day.temp.day.toFixed(2);
+            const forecastItem = `<p>${date}: ${temperature} °F</p>`;
+            forecastContainer.innerHTML += forecastItem;
+        });
+
+        const windSpeed = weatherData.current.wind_speed;
+        const windChill = calculateWindChill(currentTemperature, windSpeed);
+        document.getElementById("windspeed").textContent = `${windSpeed} mph`;
+        document.getElementById("windchill").textContent = `${windChill.toFixed(2)} °F`;
     } catch (error) {
         console.error('Error fetching weather data:', error);
     }
 }
 
-// Call the function to get weather data and calculate wind chill for Utah County
+// Call the function
 getWeatherDataAndCalculateWindChill();
