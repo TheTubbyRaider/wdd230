@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #5d5c61;
@@ -332,4 +333,150 @@ body.dark-mode .header-nav .logo {
 
 .member-card p {
     margin: 5px 0;
+}
+
+/* About page styles */
+.about {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: #379683;
+}
+
+.about p {
+    color: #7395ae;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+    color: #7395ae;
+}
+
+.about ul li::before {
+    content: "\2022"; /* Use a bullet point for list items */
+    color: #379683;
+    margin-right: 5px;
+}
+
+.about p:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
+}
+
+/* Contact page styles */
+.contact {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    color: #379683;
+}
+
+.contact p {
+    color: #7395ae;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form h1 {
+    font-size: 24px;
+    color: #379683;
+    margin-bottom: 20px;
+}
+
+.contact form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #379683;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form input[type="tel"],
+.contact form select,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact form select {
+    appearance: none;
+    padding: 10px;
+}
+
+.contact form select option {
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: #379683;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #266c7e;
+}
+
+/* Events page styles */
+.events {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.events h2 {
+    color: #379683;
+}
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events ul li {
+    margin-bottom: 10px;
+    color: #379683;
+}
+
+.events ul li::before {
+    content: "\2022"; /* Use a bullet point for list items */
+    color: #379683;
+    margin-right: 5px;
+}
+
+.events p:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
 }

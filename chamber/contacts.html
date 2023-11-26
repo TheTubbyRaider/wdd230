@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
-    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
-    <title>Thank You for Joining</title>
+    <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Contact the Chamber of Commerce">
+    <meta property="og:title" content="Contact the Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Favicon.png">
+    <meta property="og:url" content="https://www.example.com/contact.html">
+    <title>Contact the Chamber of Commerce</title>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </head>
 <body>
     <header>
         <div class="header-nav">
-            <div class="logo"><img src="images/oremlogo.webp" style="width: 100px;" alt="Chamber Logo"><p>Orem, Utah Chamber of Commerce</p></div>
+            <div class="logo">
+                <img src="images/oremlogo.webp" style="width: 100px;" alt="Chamber Logo">
+                <p>Orem, Utah Chamber of Commerce</p>
+            </div>
             <div class="menu">
                 <nav>
                     <ul>
@@ -26,7 +38,6 @@
                 </nav>
             </div>
             <div class="hamburger">☰</div>
-            
             <div class="dark-mode-toggle">
                 <label for="dark-mode-switch" class="toggle-label">
                     <input type="checkbox" id="dark-mode-switch">
@@ -35,12 +46,18 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="thank-you">
-            <h1>Thank You for Joining</h1>
-            <p>We appreciate your interest in joining the Chamber of Commerce. Your application has been successfully submitted. We will review it and get back to you soon.</p>
+
+    <main class="grid-container">
+        <section class="contact">
+            <h2>Contact the Chamber of Commerce</h2>
+            <p>Have questions or want to get involved? Reach out to us using the contact information below:</p>
+            <div class="contact-info">
+                <p>Email: grsraider66@gmail.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
         </section>
     </main>
+
     <footer>
         <div class="contact-info">
             <p>Contact: grsraider66@gmail.com</p>

@@ -1,3 +1,4 @@
+<!-- events.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +7,29 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="styles/custom.css">
     <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
-    <title>Thank You for Joining</title>
+    <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Chamber of Commerce">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Favicon.png">
+    <meta property="og:url" content="https://www.example.com">
+    <title>Orem, Utah Chamber of Commerce - Events</title>
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <link rel="stylesheet" href="styles/your-stylesheet.css">
 </head>
 <body>
     <header>
         <div class="header-nav">
-            <div class="logo"><img src="images/oremlogo.webp" style="width: 100px;" alt="Chamber Logo"><p>Orem, Utah Chamber of Commerce</p></div>
+            <div class="logo">
+                <img src="images/oremlogo.webp" style="width: 100px;" alt="Chamber Logo">
+                <p>Orem, Utah Chamber of Commerce</p>
+            </div>
             <div class="menu">
                 <nav>
                     <ul>
@@ -21,12 +38,11 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="directory.html">Members</a></li>
-                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="hamburger">☰</div>
-            
             <div class="dark-mode-toggle">
                 <label for="dark-mode-switch" class="toggle-label">
                     <input type="checkbox" id="dark-mode-switch">
@@ -35,12 +51,18 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="thank-you">
-            <h1>Thank You for Joining</h1>
-            <p>We appreciate your interest in joining the Chamber of Commerce. Your application has been successfully submitted. We will review it and get back to you soon.</p>
+    
+    <main class="grid-container">
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Community Workshop - Nov 20</li>
+                <li>Business Networking Lunch - Nov 25</li>
+                <li>Holiday Parade - Dec 1</li>
+            </ul>
         </section>
     </main>
+
     <footer>
         <div class="contact-info">
             <p>Contact: grsraider66@gmail.com</p>
