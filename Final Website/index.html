@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars Fan Club</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Star Wars Fan Club</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="ships.html">Ships</a>
+            <a href="sabers.html">Sabers</a>
+            <a href="guns.html">Guns</a>
+            <a href="factions.html">Factions</a>
+        </nav>
+    </header>
+    <main id="mainContent">
+        <div class="banner">
+            <img src="images/banner.jpg" alt="Star Wars Banner">
+        </div>
+
+        <section class="intro">
+            <h2>Welcome to the Star Wars Fan Club!</h2>
+            <p>Explore our pages to learn more about the epic Star Wars universe. From iconic characters and legendary starships to powerful lightsabers and deadly blasters, dive into the galaxy far, far away.</p>
+
+            <!-- Mailing List Form -->
+            <section class="mailing-list" id="mailingListSection">
+                <h2>Join Our Mailing List</h2>
+                <form action="#" method="post" onsubmit="submitForm()">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit" id="submitButton">Join Now</button>
+                </form>
+            </section>
+        </section>
+
+        <section class="featured-section">
+            <h2>Featured Content</h2>
+            <div class="feature">
+                <article class="character">
+                    <h3>Luke Skywalker</h3>
+                    <img src="images/luke.jpg" alt="Luke Skywalker">
+                    <p>Join the journey of the legendary Jedi, Luke Skywalker, as he battles the forces of the dark side and becomes a symbol of hope in the galaxy.</p>
+                </article>
+            </div>
+            <div class="feature">
+                <article class="ship">
+                    <h3>Millennium Falcon</h3>
+                    <img src="images/falcon.jpg" alt="Millennium Falcon">
+                    <p>Explore the fastest hunk of junk in the galaxy, the Millennium Falcon. Piloted by Han Solo and Chewbacca, it played a crucial role in many historic battles.</p>
+                </article>
+            </div>
+            <div class="feature">
+                <article class="saber">
+                    <h3>Lightsabers</h3>
+                    <img src="images/lightsabers.jpg" alt="Lightsabers">
+                    <p>Discover the elegance and power of lightsabers, the iconic weapons of the Jedi and Sith. From the blue glow of Luke's saber to the red menace of Darth Vader's, each tells a story.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Star Wars Fan Club</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

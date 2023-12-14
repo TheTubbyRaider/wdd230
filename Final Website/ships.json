@@ -1,0 +1,302 @@
+{
+    "starships": [
+      {
+        "name": "X-wing Starfighter",
+        "class": "Starfighter",
+        "manufacturer": "Incom Corporation",
+        "crew": "1 pilot",
+        "length": "12.5 meters",
+        "max_speed": "1,050 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "110 kg",
+        "weapons": ["Laser cannons", "Proton torpedoes"]
+      },
+      {
+        "name": "Millennium Falcon",
+        "class": "Light Freighter",
+        "manufacturer": "Corellian Engineering Corporation",
+        "crew": "1 pilot, 1 co-pilot",
+        "length": "34.75 meters",
+        "max_speed": "1,050 km/h",
+        "hyperdrive_rating": "0.5",
+        "cargo_capacity": "100 metric tons",
+        "weapons": ["Turbolasers", "Quad laser cannons"]
+      },
+      {
+        "name": "Slave I",
+        "class": "Firespray-31-class patrol and attack craft",
+        "manufacturer": "Kuat Systems Engineering",
+        "crew": "1 pilot",
+        "length": "21.5 meters",
+        "max_speed": "1,000 km/h",
+        "hyperdrive_rating": "3.0",
+        "cargo_capacity": "70 metric tons",
+        "weapons": ["Blasters", "Seismic charges"]
+      },
+      {
+        "name": "TIE Fighter",
+        "class": "TIE/ln starfighter",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "1 pilot",
+        "length": "8.99 meters",
+        "max_speed": "1,200 km/h",
+        "hyperdrive_rating": "No hyperdrive",
+        "cargo_capacity": "65 kg",
+        "weapons": ["Laser cannons"]
+      },
+      {
+        "name": "Imperial Star Destroyer",
+        "class": "Imperial-class Star Destroyer",
+        "manufacturer": "Kuat Drive Yards",
+        "crew": "37,085",
+        "length": "1,600 meters",
+        "max_speed": "975 km/h",
+        "hyperdrive_rating": "2.0",
+        "cargo_capacity": "36,000 metric tons",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "Y-wing Starfighter",
+        "class": "Starfighter",
+        "manufacturer": "Koensayr Manufacturing",
+        "crew": "1 pilot, 1 gunner",
+        "length": "13 meters",
+        "max_speed": "1,000 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "110 kg",
+        "weapons": ["Twin laser cannons", "Ion cannons", "Proton torpedoes"]
+      },
+      {
+        "name": "Executor-class Star Dreadnought",
+        "class": "Executor-class Star Dreadnought",
+        "manufacturer": "Kuat Drive Yards",
+        "crew": "279,144",
+        "length": "19,000 meters",
+        "max_speed": "60 km/h",
+        "hyperdrive_rating": "2.0",
+        "cargo_capacity": "250,000 metric tons",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "A-wing Starfighter",
+        "class": "Starfighter",
+        "manufacturer": "Kuat Systems Engineering",
+        "crew": "1 pilot",
+        "length": "9.6 meters",
+        "max_speed": "1,300 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "40 kg",
+        "weapons": ["Laser cannons", "Concussion missiles"]
+      },
+      {
+        "name": "Venator-class Star Destroyer",
+        "class": "Venator-class Star Destroyer",
+        "manufacturer": "Kuat Drive Yards",
+        "crew": "7,400",
+        "length": "1,137 meters",
+        "max_speed": "975 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "4,800 metric tons",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "Naboo N-1 Starfighter",
+        "class": "Starfighter",
+        "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+        "crew": "1 pilot",
+        "length": "11 meters",
+        "max_speed": "1,100 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "65 kg",
+        "weapons": ["Laser cannons", "Proton torpedoes"]
+      },
+      {
+        "name": "B-Wing Starfighter",
+        "class": "Assault Starfighter",
+        "manufacturer": "Slayn & Korpil",
+        "crew": "1 pilot",
+        "length": "16.9 meters",
+        "max_speed": "950 km/h",
+        "hyperdrive_rating": "2.0",
+        "cargo_capacity": "45 kg",
+        "weapons": ["Laser cannons", "Ion cannons", "Proton torpedoes"]
+      },
+      {
+        "name": "TIE Interceptor",
+        "class": "TIE/IN starfighter",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "1 pilot",
+        "length": "9.6 meters",
+        "max_speed": "1,250 km/h",
+        "hyperdrive_rating": "No hyperdrive",
+        "cargo_capacity": "75 kg",
+        "weapons": ["Laser cannons"]
+      },
+      {
+        "name": "Rebel Transport",
+        "class": "Medium Transport",
+        "manufacturer": "Gallofree Yards, Inc.",
+        "crew": "6",
+        "length": "90 meters",
+        "max_speed": "650 km/h",
+        "hyperdrive_rating": "4.0",
+        "cargo_capacity": "19,000 metric tons",
+        "weapons": ["Laser cannons"]
+      },
+      {
+        "name": "CR90 Corvette (Tantive IV)",
+        "class": "Corvette",
+        "manufacturer": "Corellian Engineering Corporation",
+        "crew": "165",
+        "length": "150 meters",
+        "max_speed": "950 km/h",
+        "hyperdrive_rating": "2.0",
+        "cargo_capacity": "3,000 metric tons",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "TIE Bomber",
+        "class": "TIE/sa bomber",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "1 pilot",
+        "length": "7.8 meters",
+        "max_speed": "850 km/h",
+        "hyperdrive_rating": "No hyperdrive",
+        "cargo_capacity": "none",
+        "weapons": ["Proton torpedoes", "Concussion missiles"]
+      },
+      {
+        "name": "Mon Calamari Star Cruiser",
+        "class": "Capital Ship",
+        "manufacturer": "Mon Calamari Shipyards",
+        "crew": "varies",
+        "length": "1,200 meters",
+        "max_speed": "950 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "unknown",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "Eta-2 Actis-class Interceptor",
+        "class": "Interceptor",
+        "manufacturer": "Kuat Systems Engineering",
+        "crew": "1 pilot",
+        "length": "5.47 meters",
+        "max_speed": "1,500 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "60 kg",
+        "weapons": ["Laser cannons", "Ion cannons"]
+      },
+      {
+        "name": "TIE Defender",
+        "class": "TIE/D Defender Multi-role Starfighter",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "1 pilot",
+        "length": "7 meters",
+        "max_speed": "1,300 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "45 kg",
+        "weapons": ["Laser cannons", "Ion cannons", "Missiles"]
+      },
+      {
+        "name": "Imperial Shuttle",
+        "class": "Lambda-class T-4a shuttle",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "6",
+        "length": "20 meters",
+        "max_speed": "850 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "80 metric tons",
+        "weapons": ["Laser cannons"]
+      },
+      {
+        "name": "Aurek-class Tactical Strikefighter",
+        "class": "Starfighter",
+        "manufacturer": "Kuat Systems Engineering",
+        "crew": "1 pilot",
+        "length": "9.6 meters",
+        "max_speed": "1,200 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "45 kg",
+        "weapons": ["Laser cannons", "Missiles"]
+      },
+      {
+        "name": "Mandalorian Gauntlet Fighter",
+        "class": "Assault Fighter",
+        "manufacturer": "MandalMotors",
+        "crew": "1 pilot",
+        "length": "30 meters",
+        "max_speed": "900 km/h",
+        "hyperdrive_rating": "No hyperdrive",
+        "cargo_capacity": "80 kg",
+        "weapons": ["Laser cannons", "Blaster cannons"]
+      },
+      {
+        "name": "Nebulon-B Frigate",
+        "class": "Frigate",
+        "manufacturer": "Kuat Drive Yards",
+        "crew": "854",
+        "length": "300 meters",
+        "max_speed": "950 km/h",
+        "hyperdrive_rating": "2.0",
+        "cargo_capacity": "6,000 metric tons",
+        "weapons": ["Turbolasers", "Ion cannons"]
+      },
+      {
+        "name": "Jedi Interceptor",
+        "class": "Delta-7 Aethersprite-class Interceptor",
+        "manufacturer": "Kuat Systems Engineering",
+        "crew": "1 pilot",
+        "length": "8 meters",
+        "max_speed": "1,200 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "60 kg",
+        "weapons": ["Laser cannons", "Ion cannons"]
+      },
+      {
+        "name": "Sith Infiltrator",
+        "class": "Scimitar",
+        "manufacturer": "Rothana Heavy Engineering",
+        "crew": "1 pilot",
+        "length": "26.5 meters",
+        "max_speed": "1,100 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "600 kg",
+        "weapons": ["Laser cannons", "Proton torpedoes"]
+      },
+      {
+        "name": "Republic Gunship",
+        "class": "Low Altitude Assault Transport/infantry (LAAT/i)",
+        "manufacturer": "Rothana Heavy Engineering",
+        "crew": "3",
+        "length": "17.4 meters",
+        "max_speed": "620 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "4,000 kg",
+        "weapons": ["Blaster cannons", "Missiles"]
+      },
+      {
+        "name": "TIE Phantom",
+        "class": "TIE/ph phantom",
+        "manufacturer": "Sienar Fleet Systems",
+        "crew": "1 pilot",
+        "length": "12.5 meters",
+        "max_speed": "1,200 km/h",
+        "hyperdrive_rating": "No hyperdrive",
+        "cargo_capacity": "none",
+        "weapons": ["Cloaking device", "Laser cannons"]
+      },
+      {
+        "name": "LAAT Gunship",
+        "class": "Low Altitude Assault Transport",
+        "manufacturer": "Rothana Heavy Engineering",
+        "crew": "4",
+        "length": "17.4 meters",
+        "max_speed": "620 km/h",
+        "hyperdrive_rating": "1.0",
+        "cargo_capacity": "17,000 kg",
+        "weapons": ["Blaster cannons", "Missiles"]
+      }
+    ]
+  }
+  

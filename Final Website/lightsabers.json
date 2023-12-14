@@ -1,0 +1,237 @@
+{
+    "lightsabers": [
+      {
+        "name": "Luke Skywalker's Lightsaber",
+        "color": "Blue",
+        "length": "0.875 meters",
+        "hilt_material": "Anakin Skywalker's hilt, later modified",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Rebel Alliance / Jedi Order"
+      },
+      {
+        "name": "Darth Vader's Lightsaber",
+        "color": "Red",
+        "length": "0.875 meters",
+        "hilt_material": "Sith alchemical metal",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Galactic Empire / Sith"
+      },
+      {
+        "name": "Yoda's Lightsaber",
+        "color": "Green",
+        "length": "0.55 meters",
+        "hilt_material": "Wood from the Brylark tree",
+        "crystal": "Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Mace Windu's Lightsaber",
+        "color": "Purple",
+        "length": "0.99 meters",
+        "hilt_material": "Electrum finish with a purple crystal",
+        "crystal": "Amethyst Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Obi-Wan Kenobi's Lightsaber",
+        "color": "Blue",
+        "length": "0.875 meters",
+        "hilt_material": "Chromium finish",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Count Dooku's Lightsaber",
+        "color": "Red",
+        "length": "1.14 meters",
+        "hilt_material": "Curved hilt with a metallic finish",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Rey's Lightsaber",
+        "color": "Yellow",
+        "length": "0.875 meters",
+        "hilt_material": "Constructed by Rey",
+        "crystal": "Yellow Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Qui-Gon Jinn's Lightsaber",
+        "color": "Green",
+        "length": "0.625 meters",
+        "hilt_material": "Copper finish",
+        "crystal": "Green Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Kylo Ren's Lightsaber",
+        "color": "Red",
+        "length": "0.91 meters",
+        "hilt_material": "Crossguard design with a vented pommel",
+        "crystal": "Cracked Kyber Crystal",
+        "affiliation": "First Order / Sith"
+      },
+      {
+        "name": "Ahsoka Tano's Lightsabers",
+        "color": "Blue and Green",
+        "length": "0.55 meters",
+        "hilt_material": "White lightsaber blades with a curved hilt",
+        "crystal": "Synthetic Kyber Crystals",
+        "affiliation": "Jedi Order / Rebel Alliance"
+      },
+      {
+        "name": "Darth Maul's Double-Bladed Lightsaber",
+        "color": "Red",
+        "length": "1.85 meters",
+        "hilt_material": "Metal alloy",
+        "crystal": "Synthetic Kyber Crystals",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Anakin Skywalker's Lightsaber",
+        "color": "Blue",
+        "length": "0.875 meters",
+        "hilt_material": "Chromium finish",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Asajj Ventress's Lightsabers",
+        "color": "Red (dual-wielded)",
+        "length": "0.54 meters",
+        "hilt_material": "Curved-hilt with a S-shaped guard",
+        "crystal": "Synthetic Kyber Crystals",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Kit Fisto's Lightsaber",
+        "color": "Green",
+        "length": "0.63 meters",
+        "hilt_material": "Amphibian shape with a green blade",
+        "crystal": "Green Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Plo Koon's Lightsaber",
+        "color": "Blue",
+        "length": "1.05 meters",
+        "hilt_material": "Organic-looking hilt with blue blade",
+        "crystal": "Blue Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Darth Sidious's Lightsabers",
+        "color": "Red (dual-wielded)",
+        "length": "0.71 meters",
+        "hilt_material": "Black with a gold finish",
+        "crystal": "Synthetic Kyber Crystals",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Ezra Bridger's Lightsaber",
+        "color": "Green",
+        "length": "0.875 meters",
+        "hilt_material": "Built with a kyber crystal from Lothal",
+        "crystal": "Green Kyber Crystal",
+        "affiliation": "Jedi Order / Rebel Alliance"
+      },
+      {
+        "name": "Darth Revan's Lightsaber",
+        "color": "Purple",
+        "length": "0.9 meters",
+        "hilt_material": "Silver finish with a purple blade",
+        "crystal": "Amethyst Kyber Crystal",
+        "affiliation": "Jedi / Sith"
+      },
+      {
+        "name": "Aayla Secura's Lightsaber",
+        "color": "Blue",
+        "length": "0.62 meters",
+        "hilt_material": "Curved hilt with a blue blade",
+        "crystal": "Blue Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Darth Bane's Lightsaber",
+        "color": "Red",
+        "length": "0.88 meters",
+        "hilt_material": "Sith alchemical metal",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Shaak Ti's Lightsaber",
+        "color": "Blue",
+        "length": "0.68 meters",
+        "hilt_material": "Copper finish with a blue blade",
+        "crystal": "Blue Kyber Crystal",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Darth Plagueis's Lightsaber",
+        "color": "Red",
+        "length": "0.94 meters",
+        "hilt_material": "Sith alchemical metal",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Ahsoka Tano's Shoto Lightsaber",
+        "color": "Blue",
+        "length": "0.39 meters",
+        "hilt_material": "White lightsaber blade with a shorter hilt",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Jedi Order / Rebel Alliance"
+      },
+      {
+        "name": "Darth Tyranus's Lightsaber",
+        "color": "Red",
+        "length": "0.95 meters",
+        "hilt_material": "Curved hilt with a red blade",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Ahsoka Tano's White Lightsabers",
+        "color": "White (dual-wielded)",
+        "length": "0.55 meters",
+        "hilt_material": "White lightsaber blades with a curved hilt",
+        "crystal": "Synthetic Kyber Crystals",
+        "affiliation": "Jedi Order / Rebel Alliance"
+      },
+      {
+        "name": "Darth Nihilus's Lightsaber",
+        "color": "Red",
+        "length": "1.2 meters",
+        "hilt_material": "Black metal with red blade",
+        "crystal": "Synthetic Kyber Crystal",
+        "affiliation": "Sith"
+      },
+      {
+        "name": "Kanan Jarrus's Lightsaber",
+        "color": "Blue",
+        "length": "0.95 meters",
+        "hilt_material": "Built using a blaster barrel",
+        "crystal": "Blue Kyber Crystal",
+        "affiliation": "Jedi Order / Rebel Alliance"
+      },
+      {
+        "name": "Satele Shan's Lightsaber",
+        "color": "Blue (dual-wielded)",
+        "length": "0.92 meters",
+        "hilt_material": "Silver finish with blue blades",
+        "crystal": "Blue Kyber Crystals",
+        "affiliation": "Jedi Order"
+      },
+      {
+        "name": "Darth Maul's Darksaber",
+        "color": "Dark Saber",
+        "length": "1 meter",
+        "hilt_material": "Black-bladed with a unique darksaber design",
+        "crystal": "Dark Saber Crystal",
+        "affiliation": "Mandalorian / Sith"
+      }
+    ]
+  }
+  

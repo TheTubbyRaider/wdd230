@@ -1,0 +1,230 @@
+{
+    "guns": [
+      {
+        "name": "DL-44 Heavy Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Heavy",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "6 rounds",
+        "special_features": ["Rapid Fire Module", "Concealed Holster"]
+      },
+      {
+        "name": "E-11 Blaster Rifle",
+        "type": "Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "100 rounds",
+        "special_features": ["Foldable Stock", "Imperial Issue"]
+      },
+      {
+        "name": "DC-15A Blaster Rifle",
+        "type": "Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "200 rounds",
+        "special_features": ["Clone Trooper Issue", "Under-barrel Grenade Launcher"]
+      },
+      {
+        "name": "A280C Blaster Rifle",
+        "type": "Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "150 rounds",
+        "special_features": ["Rebel Alliance Issue", "Collapsible Stock"]
+      },
+      {
+        "name": "SE-14r Light Repeating Blaster",
+        "type": "Repeating Blaster",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Light",
+        "fire_rate": "Automatic",
+        "capacity": "50 rounds",
+        "special_features": ["Dual-Wield Configuration", "Compact Design"]
+      },
+      {
+        "name": "T-21 Light Repeating Blaster",
+        "type": "Repeating Blaster",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Light",
+        "fire_rate": "Automatic",
+        "capacity": "75 rounds",
+        "special_features": ["Heavy Barrel", "Tripod Mount"]
+      },
+      {
+        "name": "EE-3 Carbine Rifle",
+        "type": "Carbine Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "20 rounds",
+        "special_features": ["Boba Fett's Customization", "Wrist-Mounted Holster"]
+      },
+      {
+        "name": "DLT-19 Heavy Blaster Rifle",
+        "type": "Heavy Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Heavy",
+        "fire_rate": "Automatic",
+        "capacity": "75 rounds",
+        "special_features": ["Extended Barrel", "Cooling Unit"]
+      },
+      {
+        "name": "DH-17 Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "20 rounds",
+        "special_features": ["Full-Auto Mode", "Compact Design"]
+      },
+      {
+        "name": "WESTAR-34 Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "Blastech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "12 rounds",
+        "special_features": ["Dual Wield Capability", "Custom Grips"]
+      },
+      {
+        "name": "KYD-21 Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "Blastech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "25 rounds",
+        "special_features": ["Rapid Fire Mode", "Silencer"]
+      },
+      {
+        "name": "Cycler Rifle",
+        "type": "Projectile Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Projectile",
+        "fire_rate": "Bolt-Action",
+        "capacity": "5 rounds",
+        "special_features": ["Scope", "High Muzzle Velocity"]
+      },
+      {
+        "name": "Bowcaster",
+        "type": "Crossbow Blaster",
+        "manufacturer": "Wookiee Craftsmanship",
+        "caliber": "Explosive Bolts",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "10 bolts",
+        "special_features": ["Wookiee Design", "Chewbacca's Choice"]
+      },
+      {
+        "name": "A280-CFE Sniper Rifle",
+        "type": "Sniper Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "10 rounds",
+        "special_features": ["Telescopic Scope", "Variable Zoom"]
+      },
+      {
+        "name": "T-7 Ion Disruptor",
+        "type": "Ion Disruptor",
+        "manufacturer": "Merr-Sonn Munitions, Inc.",
+        "caliber": "Ion",
+        "fire_rate": "Single Shot",
+        "capacity": "1 shot",
+        "special_features": ["Ionizing Blast", "Anti-Droid Weapon"]
+      },
+      {
+        "name": "SE-44C Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "25 rounds",
+        "special_features": ["Rapid Fire", "Compact Design"]
+      },
+      {
+        "name": "D-93 Incinerator Flamethrower",
+        "type": "Flamethrower",
+        "manufacturer": "Czerka Arms",
+        "caliber": "Flame",
+        "fire_rate": "Continuous",
+        "capacity": "Fuel Tank",
+        "special_features": ["Napalm Spray", "Anti-Personnel"]
+      },
+      {
+        "name": "ELG-3A Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "15 rounds",
+        "special_features": ["Silenced", "Concealed Carry"]
+      },
+      {
+        "name": "RG-4D Blaster Cannon",
+        "type": "Heavy Blaster Cannon",
+        "manufacturer": "Merr-Sonn Munitions, Inc.",
+        "caliber": "Heavy",
+        "fire_rate": "Automatic",
+        "capacity": "150 rounds",
+        "special_features": ["Rotary Barrel", "Anti-Vehicle"]
+      },
+      {
+        "name": "A-180 Blaster",
+        "type": "Modular Blaster",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "Variable",
+        "special_features": ["Modular Design", "Sniper Rifle Attachment"]
+      },
+      {
+        "name": "X-8 Night Sniper",
+        "type": "Sniper Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Single Shot",
+        "capacity": "6 rounds",
+        "special_features": ["Silenced", "Infrared Scope"]
+      },
+      {
+        "name": "FWMB-10 Repeating Blaster",
+        "type": "Repeating Blaster",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "50 rounds",
+        "special_features": ["Forward-Grip", "Rapid Fire"]
+      },
+      {
+        "name": "DL-18 Blaster Pistol",
+        "type": "Blaster Pistol",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Semi-Automatic",
+        "capacity": "10 rounds",
+        "special_features": ["Extended Barrel", "Custom Grips"]
+      },
+      {
+        "name": "A280 Blaster Rifle",
+        "type": "Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Standard",
+        "fire_rate": "Automatic",
+        "capacity": "120 rounds",
+        "special_features": ["Collapsible Stock", "Rebel Alliance Issue"]
+      },
+      {
+        "name": "DLT-20A Blaster Rifle",
+        "type": "Heavy Blaster Rifle",
+        "manufacturer": "BlasTech Industries",
+        "caliber": "Heavy",
+        "fire_rate": "Automatic",
+        "capacity": "80 rounds",
+      "special_features": ["Scope", "High-Powered Shots"]
+      }
+    ]
+  }
+  

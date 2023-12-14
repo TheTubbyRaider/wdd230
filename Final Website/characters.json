@@ -1,0 +1,299 @@
+{
+    "characters": [
+        {
+            "name": "Luke Skywalker",
+            "details": {
+                "Height": "172 cm",
+                "Weight": "77 kg",
+                "Race": "Human",
+                "Job": "Jedi",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Princess Leia",
+            "details": {
+                "Height": "150 cm",
+                "Weight": "49 kg",
+                "Race": "Human",
+                "Job": "Princess",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Han Solo",
+            "details": {
+                "Height": "180 cm",
+                "Weight": "80 kg",
+                "Race": "Human",
+                "Job": "Smuggler",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Darth Vader",
+            "details": {
+                "Height": "202 cm",
+                "Weight": "136 kg",
+                "Race": "Human",
+                "Job": "Sith Lord",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Yoda",
+            "details": {
+                "Height": "66 cm",
+                "Weight": "17 kg",
+                "Race": "Unknown",
+                "Job": "Jedi Master",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Chewbacca",
+            "details": {
+                "Height": "228 cm",
+                "Weight": "112 kg",
+                "Race": "Wookiee",
+                "Job": "Co-pilot",
+                "Weapon": "Bowcaster"
+            }
+        },
+        {
+            "name": "Obi-Wan Kenobi",
+            "details": {
+                "Height": "182 cm",
+                "Weight": "77 kg",
+                "Race": "Human",
+                "Job": "Jedi Master",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Emperor Palpatine",
+            "details": {
+                "Height": "173 cm",
+                "Weight": "75 kg",
+                "Race": "Human",
+                "Job": "Sith Lord",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Lando Calrissian",
+            "details": {
+                "Height": "177 cm",
+                "Weight": "79 kg",
+                "Race": "Human",
+                "Job": "Administrator",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Boba Fett",
+            "details": {
+                "Height": "183 cm",
+                "Weight": "78 kg",
+                "Race": "Human",
+                "Job": "Bounty Hunter",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Anakin Skywalker",
+            "details": {
+                "Height": "188 cm",
+                "Weight": "84 kg",
+                "Race": "Human",
+                "Job": "Jedi Knight",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Padmé Amidala",
+            "details": {
+                "Height": "165 cm",
+                "Weight": "45 kg",
+                "Race": "Human",
+                "Job": "Queen",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Obi-Wan Kenobi",
+            "details": {
+                "Height": "182 cm",
+                "Weight": "77 kg",
+                "Race": "Human",
+                "Job": "Jedi Master",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Qui-Gon Jinn",
+            "details": {
+                "Height": "193 cm",
+                "Weight": "89 kg",
+                "Race": "Human",
+                "Job": "Jedi Master",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Mace Windu",
+            "details": {
+                "Height": "188 cm",
+                "Weight": "84 kg",
+                "Race": "Human",
+                "Job": "Jedi Master",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Count Dooku",
+            "details": {
+                "Height": "191 cm",
+                "Weight": "86 kg",
+                "Race": "Human",
+                "Job": "Sith Lord",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "Darth Maul",
+            "details": {
+                "Height": "175 cm",
+                "Weight": "80 kg",
+                "Race": "Zabrak",
+                "Job": "Sith Lord",
+                "Weapon": "Double-bladed Lightsaber"
+            }
+        },
+        {
+            "name": "General Grievous",
+            "details": {
+                "Height": "216 cm",
+                "Weight": "159 kg",
+                "Race": "Kaleesh",
+                "Job": "Cyborg General",
+                "Weapon": "Lightsabers"
+            }
+        },
+        {
+            "name": "Senator Palpatine",
+            "details": {
+                "Height": "173 cm",
+                "Weight": "75 kg",
+                "Race": "Human",
+                "Job": "Senator",
+                "Weapon": "Lightsaber"
+            }
+        },
+        {
+            "name": "C-3PO",
+            "details": {
+                "Height": "167 cm",
+                "Weight": "75 kg",
+                "Race": "Droid",
+                "Job": "Protocol Droid"
+            }
+        },
+        {
+            "name": "Rey",
+            "details": {
+                "Height": "170 cm",
+                "Weight": "54 kg",
+                "Race": "Human",
+                "Job": "Jedi",
+                "Weapon": "Staff, Lightsaber"
+            }
+        },
+        {
+            "name": "Finn",
+            "details": {
+                "Height": "178 cm",
+                "Weight": "73 kg",
+                "Race": "Human",
+                "Job": "Former Stormtrooper",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Poe Dameron",
+            "details": {
+                "Height": "180 cm",
+                "Weight": "77 kg",
+                "Race": "Human",
+                "Job": "Pilot",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Kylo Ren",
+            "details": {
+                "Height": "189 cm",
+                "Weight": "89 kg",
+                "Race": "Human",
+                "Job": "Dark Side Force User",
+                "Weapon": "Crossguard Lightsaber"
+            }
+        },
+        {
+            "name": "BB-8",
+            "details": {
+                "Height": "67 cm",
+                "Weight": "18 kg",
+                "Race": "Droid",
+                "Job": "Astromech"
+            }
+        },
+        {
+            "name": "Maz Kanata",
+            "details": {
+                "Height": "125 cm",
+                "Weight": "43 kg",
+                "Race": "Unknown",
+                "Job": "Pirate",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Captain Phasma",
+            "details": {
+                "Height": "200 cm",
+                "Weight": "76 kg",
+                "Race": "Human",
+                "Job": "First Order Captain",
+                "Weapon": "Blaster"
+            }
+        },
+        {
+            "name": "Supreme Leader Snoke",
+            "details": {
+                "Height": "240 cm",
+                "Weight": "unknown",
+                "Race": "Unknown",
+                "Job": "Dark Side Force User"
+            }
+        },
+        {
+            "name": "Rose Tico",
+            "details": {
+                "Height": "150 cm",
+                "Weight": "unknown",
+                "Race": "Human",
+                "Job": "Mechanic"
+            }
+        },
+        {
+            "name": "General Hux",
+            "details": {
+                "Height": "189 cm",
+                "Weight": "unknown",
+                "Race": "Human",
+                "Job": "First Order General"
+            }
+        }
+    ]
+}
