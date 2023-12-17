@@ -81,23 +81,27 @@ body {
     background-color: #266c7e;
 }
 
-.events, .news {
+.events,
+.news {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.events h2, .news h2 {
+.events h2,
+.news h2 {
     color: #379683;
 }
 
-.events ul, .news ul {
+.events ul,
+.news ul {
     list-style: none;
     padding: 0;
 }
 
-.events ul li, .news ul li {
+.events ul li,
+.news ul li {
     margin-bottom: 10px;
 }
 
