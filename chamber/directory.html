@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="styles/custom.css">
-    <link rel="stylesheet" href="styles/dark-mode.css" id="dark-mode-stylesheet">
     <link rel="icon" href="images/Favicon.png" type="image/x-icon">
     <meta name="author" content="Your Name">
     <meta name="description" content="Chamber of Commerce">
@@ -15,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/Favicon.png">
     <meta property="og:url" content="https://www.example.com">
-    <title>Orem, Utah Chamber of Commerce</title>
+    <title>Orem, Utah Chamber of Commerce Directory</title>
 </head>
 <body>
     <header>
@@ -71,49 +69,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script>
-        async function fetchAndDisplayMembers() {
-            const response = await fetch('data/members.json');
-            const data = await response.json();
-            const membersContainer = document.getElementById('membersContainer');
-            const viewSelector = document.querySelector('.view-toggle input[name="view"]:checked').value;
+    <script src="scripts/directory.js"></script>
 
-            membersContainer.innerHTML = '';
-
-            data.members.forEach(member => {
-                const memberCard = document.createElement('div');
-                memberCard.classList.add('member-card');
-
-                if (viewSelector === 'grid') {
-                    memberCard.innerHTML = `
-                        <img src="images/${member.image}" alt="${member.name}">
-                        <h3>${member.name}</h3>
-                        <p>${member.address}</p>
-                        <p>${member.phone}</p>
-                        <p>${member.website}</p>
-                        <p>Membership Level: ${member.membershipLevel}</p>
-                        <p>${member.otherInfo}</p>
-                    `;
-                } else if (viewSelector === 'list') {
-                    memberCard.innerHTML = `
-                        <h3>${member.name}</h3>
-                        <p>${member.address}</p>
-                        <p>${member.phone}</p>
-                        <p>${member.website}</p>
-                        <p>Membership Level: ${member.membershipLevel}</p>
-                        <p>${member.otherInfo}</p>
-                    `;
-                }
-
-                membersContainer.appendChild(memberCard);
-            });
-        }
-
-        document.querySelectorAll('.view-toggle input[name="view"]').forEach(input => {
-            input.addEventListener('change', fetchAndDisplayMembers);
-        });
-
-        fetchAndDisplayMembers();
-    </script>
 </body>
 </html>
