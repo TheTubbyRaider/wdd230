@@ -1,88 +1,55 @@
-/* CSS Normalization */
-* {
-    box-sizing: border-box;
+/* CSS Reset or Normalize (you can use a library like normalize.css) */
+body, h1, h2, p, a, img {
     margin: 0;
     padding: 0;
 }
 
-/* Typography */
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
 }
 
-h1, h2 {
-    font-weight: 700;
-}
-
-/* Color Schema */
-body {
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
-
-.main {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.card {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-}
-
-/* CSS Grid Layout */
-.main {
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-/* Alignment and Spacing */
 .card {
-    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    margin-bottom: 10px;
+/* Custom Styling for Each Design Principle */
+.card.visual-hierarchy {
+    /* Add specific styles for Visual Hierarchy */
 }
 
-p {
-    margin-bottom: 15px;
+.card.clean-design {
+    /* Add specific styles for White Space and Clean Design */
 }
 
-a {
-    color: #007acc;
-    text-decoration: none;
+.card.parc-contrast {
+    /* Add specific styles for PARC: Contrast */
 }
 
-/* Color Contrast */
-a:hover {
-    color: #0058a3;
-}
-
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 600px) {
-    .main {
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+    .grid {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 900px) {
-    .main {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 901px) {
-    .main {
+@media screen and (min-width: 1024px) {
+    .grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
