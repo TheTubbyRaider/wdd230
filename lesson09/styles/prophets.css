@@ -13,19 +13,22 @@ header {
 }
 
 main {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
 }
 
 section {
+    flex: 0 0 calc(30% - 20px);
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 img {

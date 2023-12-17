@@ -1,0 +1,126 @@
+{
+    "lessons": [
+      {
+        "lesson": "01",
+        "links": [
+          {
+            "url": "#",
+            "title": "Introduction"
+          }
+        ]
+      },
+      {
+        "lesson": "02",
+        "links": [
+          {
+            "url": "lesson2/design.html",
+            "title": "Design Basics"
+          },
+          {
+            "url": "lesson2/designprinciples.html",
+            "title": "Design Principles"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators1",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "https://codepen.io/TheTubbyRaider/pen/RwEJJrb",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "https://codepen.io/TheTubbyRaider/pen/XWoYYXq",
+            "title": "Responsive 'Hamburger' Menu"
+          },
+          {
+            "url": "lesson3/chamber-site-plan.html",
+            "title": "The Chamber of Commerce Site Plan"
+          }
+        ]
+      },
+      {
+        "lesson": "04",
+        "links": [
+          {
+            "url": "https://codepen.io/TheTubbyRaider/pen/VwqVzve",
+            "title": "CSS Pseudo-Classes"
+          },
+          {
+            "url": "chamber/index.html",
+            "title": "Chamber of Commerce"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "lesson05/bom.html",
+            "title": "Book of Mormon Favorite Chapters Application"
+          }
+        ]
+      },
+      {
+        "lesson": "06",
+        "links": [
+          {
+            "url": "lesson06/images/landscape.webp",
+            "title": "WebP Image File Format"
+          }
+        ]
+      },
+      {
+        "lesson": "07",
+        "links": [
+          {
+            "url": "#",
+            "title": "Your Lesson 07 Title"
+          }
+
+        ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "lesson08/tablebuild.html",
+            "title": "Table"
+          },
+          {
+            "url": "lesson08/form-start/index.html",
+            "title": "Form"
+          },
+          {
+            "url": "form.html",
+            "title": "Form Build"
+          }
+        ]
+      },
+      {
+        "lesson": "09",
+        "links": [
+          {
+            "url": "lesson09/prophets.html",
+            "title": "Prophets Page"
+          }
+        ]
+      },
+      {
+        "lesson": "10",
+        "links": [
+          {
+            "url": "#",
+            "title": "Your Lesson 10 Title"
+          }
+
+        ]
+      }
+
+    ]
+  }
+  
