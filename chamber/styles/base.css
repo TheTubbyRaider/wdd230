@@ -34,6 +34,10 @@ body {
     display: none;
 }
 
+.header-nav .menu ul.show-menu {
+    display: block;
+}
+
 .header-nav .menu ul li {
     margin-right: 20px;
 }
