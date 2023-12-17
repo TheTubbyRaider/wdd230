@@ -343,6 +343,17 @@ body.dark-mode .header-nav .logo {
     margin: 5px 0;
 }
 
+/* Updated styles for list view */
+.list-view .members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-view .member-card {
+    width: 100%;
+}
+
 /* About page styles */
 .about {
     background-color: white;

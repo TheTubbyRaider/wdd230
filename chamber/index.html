@@ -24,11 +24,12 @@
     <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 1024px)">
     <!-- Scripts -->
     <script src="scripts/lastModified.js"></script>
+    <script src="scripts/main.js"></script>
     <script src="scripts/page-counter.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
 </head>
 
 <body>
@@ -107,8 +108,11 @@
             <p>Wind Chill: <span id="windchill">Loading...</span></p>
         </section>
 
-        <!-- Banner Section -->
-        <div id="banner-container"></div>
+        <!-- Meet and Greet Banner Section -->
+        <section class="meet-greet-banner" id="meetGreetBanner">
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+            <button onclick="closeMeetGreetBanner()">Close</button>
+        </section>
     </main>
 
     <!-- Footer Section -->
