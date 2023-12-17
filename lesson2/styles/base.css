@@ -22,18 +22,6 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Custom Styling for Each Design Principle */
-.card.visual-hierarchy {
-    /* Add specific styles for Visual Hierarchy */
-}
-
-.card.clean-design {
-    /* Add specific styles for White Space and Clean Design */
-}
-
-.card.parc-contrast {
-    /* Add specific styles for PARC: Contrast */
-}
 
 /* Responsive Design */
 @media screen and (max-width: 767px) {
